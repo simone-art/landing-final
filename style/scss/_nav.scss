@@ -1,0 +1,25 @@
+// .logo {
+//     width: $width;
+// }
+
+.navegacao {
+    @include flex;
+    // display: flex;
+    // justify-content: space-between;
+    .logo {
+        width: $width;
+    }
+    
+    .menu {
+        width: 42%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .menu--direita {
+        width: 25%;
+    }
+}
+// .nav_menu {
+//    @include flex-direction (row); 
+// }

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+}
+.navegacao .logo {
+  width: 100px;
+}
+.navegacao .menu {
+  width: 42%;
+  display: flex;
+  justify-content: space-around;
+}
+.navegacao .menu--direita {
+  width: 25%;
+}
+
+/*# sourceMappingURL=style.css.map */
